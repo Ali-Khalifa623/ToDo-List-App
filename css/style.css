@@ -1,0 +1,28 @@
+.stat{
+  height: 85px;
+  width: 100px;
+}
+.form input::placeholder{
+  color: #fff;
+  font-size: 15px;
+}
+.details {
+  border: 2px solid #132F4F;
+}
+.form input{
+  border-color: #132F4F;
+}
+ul{
+  list-style: none;
+}
+.task-item  label.checked{
+  text-decoration: line-through;
+  color: rgb(50, 210, 243);
+}
+@media (max-width: 676px) {
+  .stat{
+    height: 75px;
+    width: 100px;
+  }
+} 
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Test</title>
+</head>
+<body style="background: #030C17; color: #fff;">
+  <div class="todo-app container mt-4">
+    <div class="details d-flex juatify-content-between align-items-center gap-2 rounded-3 p-3" style="background: #0A1E36">
+      <div class="title w-100">
+        <h2>To Do App</h2>
+        <p>Make It Up!</p>
+        <div class="progress w-75" style="height: 5px;">
+          <span class="progress-bar bg-info"></span>
+        </div>
+      </div>
+      <div class="stat bg-info d-flex justify-content-center align-items-center  p-md-0 fs-4 fw-bold rounded-circle">0 / 0</div>
+    </div>
+    
+    <div class="form mt-4 d-flex juatify-content-between align-items-center gap-2">
+      <input id="input" type="text" class="form-control" style="background: #0A1E36; color: #fff" placeholder="Add Task">
+      <button id="addBtn" class="btn btn-info rounded-circle fs-5 text-light fw-bold px-3">+</button>
+    </div>
+    
+    <ul class="tasks-list mt-4 ps-0"></ul>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
